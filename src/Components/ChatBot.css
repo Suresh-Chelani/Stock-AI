@@ -1,0 +1,148 @@
+  #nav-wrap {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+  }
+  .rcw-picker-btn {
+    display: none; 
+}
+
+  #nav {
+    list-style: none;
+    padding:0;
+    margin: 0;       
+    display: flex;    
+  }
+
+  #nav li {
+    margin: 0 15px; 
+  }
+
+.custom-chat {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f8f9fa; 
+}
+
+
+/* Header */
+.custom-chat-header {
+  background-color: #007bff; /* Header background */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 4.25em; /* Larger font size */
+}
+
+/* Message Container */
+.custom-chat .rcw-messages-container {
+  padding: 15px;
+  height: 300px; /* Set height for the message area */
+  overflow-y: auto; /* Scrollable area for messages */
+  border-bottom: 1px solid #e0e0e0; /* Add a border at the bottom */
+}
+
+/* Individual Message */
+.custom-chat .rcw-message {
+  margin-bottom: 15px; /* Spacing between messages */
+  padding: 1px;
+  border-radius: 5px;
+  max-width: 75%; /* Limit message width */
+}
+
+/* User Message */
+.custom-chat .rcw-message-user {
+  background-color: #0084ff; /* User message background */
+  color: white;
+  align-self: flex-end; /* Align user messages to the right */
+}
+
+/* Bot Message */
+.custom-chat .rcw-message-bot {
+  background-color: #e0e0e0; /* Bot message background */
+  color: black;
+  align-self: flex-start; /* Align bot messages to the left */
+}
+
+/* Input Container */
+.custom-chat .rcw-new-message {
+  display: flex;
+  padding: 10x;
+  background-color: white; /* Input background */
+}
+
+/* Input Field */
+.custom-chat .rcw-input {
+  flex-grow: 1; /* Allow input to take available space */
+  padding: 10px;
+  border: 1px solid #e0e0e0; /* Border for the input */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 1em; /* Font size for input */
+}
+
+/* Send Button */
+.custom-chat .rcw-send {
+  border: none;
+  background-color: #007bff; /* Button background */
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1em; /* Font size for button */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Send Button Hover Effect */
+.custom-chat .rcw-send:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 480px) {
+  .custom-chat {
+      width: 100%; /* Full width on smaller screens */
+      box-shadow: none; /* Remove shadow on mobile */
+  }
+  
+  .custom-chat-header {
+      font-size: 1.2em; /* Slightly smaller font on mobile */
+  }
+  
+  .custom-chat .rcw-send {
+      font-size: 0.9em; /* Smaller button on mobile */
+  }
+}
+.custom-chat {
+  font-family: 'Arial', sans-serif; /* Choose a clean font */
+  font-size: 16px; /* Base font size for the chatbot */
+}
+
+.custom-chat .rcw-new-message {
+  font-size: 18px; /* Increase font size for messages */
+}
+
+.custom-chat .rcw-input {
+  text-align: left;
+  font-size: 16px; /* Input field font size */
+  padding: 10px; /* Increase padding for better touch target */
+}
+
+.custom-chat .rcw-send {
+  font-size: 16px; /* Button font size */
+}
+
+/* Adjust any other text elements as needed */
+.custom-chat .rcw-header {
+  font-size: 20px; /* Larger header font size */
+}
+
+.custom-chat .rcw-message {
+  font-size: 18px; /* Font size for each message */
+}

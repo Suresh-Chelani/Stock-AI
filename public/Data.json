@@ -1,0 +1,54 @@
+{
+  "main": {
+    "name":"WealthWiseAI",
+    "description":"Data",
+    "image":"profilepic.jpg",
+    "bio":"At WealthWiseAI, We are dedicated to empowering individuals with smart, AI-driven financial insights to enhance their investment decisions. Our innovative platform simplifies stock market education, providing real-time data, personalized advice, and cutting-edge tools for beginners and seasoned investors alike. We believe in democratizing financial literacy, helping users achieve their wealth goals with confidence and ease. With a focus on transparency and technology, WealthWiseAI is your partner in making informed financial choices. Let’s grow your wealth, the wise way.",
+    "contactmessage":"Feel free to contact us using the form below for any inquiries or support with our AI-driven stock prediction tools!",
+    "email": "sharmashubham74164@gmail.com",
+    "phone": "+91 83022 47988",
+    "github":"https://github.com/shubhamvlogs",
+    "project":"https://github.com/shubhamvlogs",
+    "address":{
+      "street":"Amer Road",
+      "city":"Jaipur",
+      "state":"Rajasthan",
+      "zip": "302002"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/shubhams4/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/_stubborn_shubham/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/shubhamvlogs",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "work":[
+      {
+        "company":"Stock Prediction Company",
+        "title":"Current Work",
+        "years":"August 2024 - Running",
+        "description":"Developed and integrated a conversational chatbot to provide real-time stock information and predictions. Utilized various Machine Learning algorithms for accurate stock predictions, incorporating time series forecasting, regression models, and neural networks."
+      },
+      {
+        "company":"Additional Features",
+        "title":"Coming soon..",
+        "years":"",
+        "description":"Discover the future of stock market investing with our upcoming AI-powered chatbot! Get personalized stock recommendations tailored to your preferences, real-time market insights, and expert analysis—all at your fingertips. Whether you're a beginner or an experienced trader, our chatbot will help you make informed decisions with ease."
+      }
+    ]
+  }
+}
