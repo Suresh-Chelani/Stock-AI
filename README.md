@@ -1,10 +1,43 @@
-# Stock AI: <i class="fas fa-robot"></i>
+# Stock AI: 🤖
 
-### [LIVE DEMO](https://wealthwise-ai.netlify.app/).
+![Stock AI Image](https://github.com/Suresh-Chelani/Stock-AI/blob/main/public/images/img1.png?raw=true)
 
+### [LIVE DEMO](https://wealthwise-ai.netlify.app/)
+
+## Chatbot Interaction
+
+![Chatbot Image](https://github.com/Suresh-Chelani/Stock-AI/blob/main/public/images/img2.png?raw=true)
+
+## Stock Price Prediction
+
+![Stock Prediction Image](https://github.com/Suresh-Chelani/Stock-AI/blob/main/public/images/img3.png?raw=true)
+
+## Description
+
+Stock AI is a web-based application designed to assist in predicting stock prices using historical data from the past 10 years. Built with **React.js**, this application offers:
+
+- **Dynamic Stock Price Predictions**: Leveraging historical stock data to predict future trends.
+- **Interactive Chatbot**: Allows users to interact with the system and retrieve financial insights.
+- **Graphical Visualization**: Visualize stock trends and patterns with **Chart.js**.
+- **Notifications**: Real-time updates using **Toastify** for a better user experience.
+
+This project integrates advanced data analysis techniques to provide actionable, data-driven insights for making informed financial decisions.
+
+---
+
+## API Key Generation (Polygon.ai)
+
+To get started with the **Stock AI** application, you need to generate an API key from [Polygon.ai](https://polygon.io/), which will provide the necessary data for stock price predictions. Follow these steps to obtain the key:
+
+1. Visit [Polygon.io](https://polygon.io/) and create an account.
+2. After signing in, navigate to the **API Keys** section of the dashboard.
+3. Click **Generate New Key** to obtain your unique API key.
+4. Copy the API key and paste it into the `header.js` file of this project. Example:
+
+```bash
+apiKey = 'YOUR_API'
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -69,3 +102,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
