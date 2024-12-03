@@ -34,8 +34,8 @@ To get started with the **Stock AI** application, you need to generate an API ke
 3. Click **Generate New Key** to obtain your unique API key.
 4. Copy the API key and paste it into the `header.js` file of this project. Example:
 
-```bash
-apiKey = 'YOUR_API'
+```apiKey = 'YOUR_API'```
+
 
 ## Available Scripts
 In the project directory, you can run:
