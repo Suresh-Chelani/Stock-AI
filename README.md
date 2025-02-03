@@ -2,7 +2,7 @@
 
 ![Stock AI Image](https://github.com/Suresh-Chelani/Stock-AI/blob/main/public/images/img1.png?raw=true)
 
-### [LIVE DEMO](https://wealthwise-ai.netlify.app/)
+### [LIVE DEMO](https://finance-bot.netlify.app/)
 
 ## Chatbot Interaction
 
